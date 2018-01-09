@@ -1,0 +1,68 @@
+.container {
+	display: flex;
+	justify-content: center
+}
+
+li {
+	list-style: none;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid pink;
+}
+
+ul {
+	justify-content: center;
+	color: grey;
+}
+
+a {
+	justify-content: center;
+}
+
+.jumbotron {
+	justify-content: center;
+	align-items: center;
+	background-color: pink;
+	color: grey;
+	height: 100vh;
+}
+
+.gallery {
+	flex-wrap: wrap;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+img {
+	margin: 20px;
+	border: 1px solid pink;
+}
+.text {
+	flex-wrap: wrap;
+	background-color: pink;
+	color: grey;
+}
+
+.text p {
+	min-width: 200px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	background-color: grey;
+	color: pink;
+	display: flex;
+	padding: 20px;
+}
+
+.grow {
+	flex-grow:2;
+}
+
+@media (max-width: 600px) {
+	.container ul {
+		flex-direction: column;
+	}
+}
